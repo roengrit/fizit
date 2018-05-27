@@ -1,0 +1,56 @@
+{{define "content"}}
+<div class="container">
+  <div class="col col-12">
+    <div class="card">
+      <div class="card-header">
+        <h3 class="card-title">Invoices</h3>
+      </div>
+      <div class="Table.table-responsive">
+        <table class="table card-table table-vcenter text-nowrap" headeritems="[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object]"
+          bodyitems="[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object]">
+          <thead class="">
+            <tr class="">
+              <th class="w-1">No.</th>
+              <th class="">Invoice Subject</th>
+              <th class="">Client</th>
+              <th class="">VAT No.</th>
+              <th class="">Created</th>
+              <th class="">Status</th>
+              <th class="">Price</th>
+              <th class=""></th>
+              <th class=""></th>
+            </tr>
+          </thead>
+          <tbody class="">
+            <tr class="">
+              <td class="">
+                <span class="text-muted">001401</span>
+              </td>
+              <td class="">
+                <a href="invoice.html" class="text-inherit">Design Works</a>
+              </td>
+              <td class="">Carlson Limited</td>
+              <td class="">87956621</td>
+              <td class="">15 Dec 2017</td>
+              <td class="">
+                <span class="status-icon bg-success"></span> Paid</td>
+              <td class="">$887</td>
+              <td class="text-right">
+                <button class="btn btn-sm btn-secondary">Manage</button>
+                <div class="dropdown">
+                  <button class="btn btn-sm btn-secondary dropdown-toggle">Actions</button>
+                </div>
+              </td>
+              <td class="">
+                <a class="icon">
+                  <i class="fe fe-edit"></i>
+                </a>
+              </td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </div>
+</div>
+{{end}}
